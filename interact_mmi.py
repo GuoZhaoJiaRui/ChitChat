@@ -40,7 +40,7 @@ def set_interact_args():
     parser.add_argument('--log_path', default='data/interacting_mmi.log', type=str, required=False,
                         help='interact_mmi日志存放位置')
     parser.add_argument('--voca_path', default='vocabulary/vocab_small.txt', type=str, required=False, help='选择词库')
-    parser.add_argument('--dialogue_model_path', default='dialogue_model/', type=str, required=False,
+    parser.add_argument('--dialogue_model_path', default='dialongue_model/', type=str, required=False,
                         help='dialogue_model路径')
     parser.add_argument('--mmi_model_path', default='mmi_model/', type=str, required=False,
                         help='互信息mmi_model路径')
